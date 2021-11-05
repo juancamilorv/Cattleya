@@ -1,12 +1,12 @@
 
 # SPRINT 1
 
-  
+ ## GRUPO 5
 
 README.md
 
 Cattleya.com
-Proyecto del ciclo 4B de misionTIC 2022. Stack MEAN.
+Proyecto realizado para el ciclo 4B de misionTIC 2022. Stack MEAN.
 
   
 
