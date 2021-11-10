@@ -91,3 +91,7 @@ El proyecto se realiza bajo la metodología ágil SCRUM, para permitir un flujo 
 | 5                           | Login, y CRUD de un usuario administrador.                                                                                                                                                                         | Todos.                                         | Sin empezar  | 10                       |
 | 4                           | Estética de la página.                                                                                                                                                                                             | Yorley y Juan Camilo.                          | Sin empezar  | 10                       |
 
+
+# DIAGRAMA DE CLASES
+
+
