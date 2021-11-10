@@ -92,6 +92,6 @@ El proyecto se realiza bajo la metodología ágil SCRUM, para permitir un flujo 
 | 4                           | Estética de la página.                                                                                                                                                                                             | Yorley y Juan Camilo.                          | Sin empezar  | 10                       |
 
 
-# DIAGRAMA DE CLASES
+# 7. Diagrama de Clases
 
-
+![Diagrama de Clases](https://github.com/juancamilorv/Cattleya/blob/main/DiagramaDeClases.png)
