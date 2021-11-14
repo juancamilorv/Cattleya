@@ -95,7 +95,7 @@ El proyecto se realiza bajo la metodología ágil SCRUM, para permitir un flujo 
 # SPRINT 2
 
 
-## Evidencia instalacion de aplicaciones de todos los integrantes https://docs.google.com/document/d/1r1uuMFRs61ZLvmW-2KiZMp__opmYrGtQKPygAquT_XY/edit
+## Evidencia de instalacion de los ambientes de trabajo https://docs.google.com/document/d/1r1uuMFRs61ZLvmW-2KiZMp__opmYrGtQKPygAquT_XY/edit
 
-# 7. Diagrama de Clases
+# Diagrama de Clases y objetos
 ![Diagrama de Clases](https://github.com/juancamilorv/Cattleya/blob/main/DiagramaDeClases.png)
