@@ -68,7 +68,7 @@ El proyecto se realiza bajo la metodología ágil SCRUM, para permitir un flujo 
 
 
 # 6. Product Backlog
-<<Se presenta una lista que recoge todo lo que debe contener el producto para satisfacer las necesidades del público objetivo.>>
+
 
 | Nivel de importancia. (1-5) | Requerimientos/Tareas                                                                                                                                                                                              | Responsable                                    | Estado       | Horas del Sprint (Horas) |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|--------------|--------------------------|
