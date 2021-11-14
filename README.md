@@ -27,7 +27,7 @@ Cattleya está dirigida a cualquier persona que desee observar, adquirir plantas
 
   
 
-Crear un portal Web que permita a los usuarios amantes de la naturaleza, comprar y vender productos ya sean plantas o insumos de jardinería; sumado a esto, se incentiva la interacción de los usuarios en los blogs dedicados a temas de jardinería.
+Cattleya permite a usuarios amantes de la naturaleza, comprar y vender productos ya sean plantas o insumos de jardinería; sumado a esto, se incentiva la interacción de los usuarios en los blogs dedicados a temas de jardinería.
 
   
 
