@@ -1,0 +1,5 @@
+Chicos a continuación les comparto algunos comentarios con respecto al sprint 1, este feedback no afecta la nota del sprint:
+
+1. La justificacion, objetivo, introducción y target market son bastante atractivos, claros y consisos. Buen trabajo! 👏
+
+2. El product backlog es más una lista de tareas que de necesidades del usuario. Hace falta ajustar las historias a un formato que exprese la necesidad del cliente. Por favor trabajar en refinar esto en el avance de los sprints.
