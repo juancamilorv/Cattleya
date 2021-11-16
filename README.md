@@ -5,11 +5,6 @@ Proyecto del ciclo 4B de misionTIC 2022. Stack MEAN.
 
  ## GRUPO 5
 ### Enlace de Jira: https://juanccode.atlassian.net/jira/software/projects/CAT/boards/2/roadmapshared=&atlOrigin=eyJpIjoiMzI3NTE2NTM4MjQxNDIxOGE0NDk2NjhhZDRkNjk3MjMiLCJwIjoiaiJ9
-README.md
-
-Cattleya.com
-Proyecto realizado para el ciclo 4B de misionTIC 2022. Stack MEAN.
-
   
 
 # 1. Introducción
