@@ -1,9 +1,3 @@
-// Express module import under express alias
-const express = require('express')
-// Creating a new instance of express
-const app = express()
-const port = 3000
-
 const posts = [
     {
         id: 1,
@@ -27,23 +21,12 @@ const posts = [
     }
 ]
 
-app.use(express.json())
-app.use(express.urlencoded({extended: false}))
-
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
-
-app.get('/api/post/', (req, res) => {
+exports.getPosts = (req, res) => {
     res.status(200).json(posts)
-  })
+}
 
-app.post('/api/post/', (req, res) => {
-    posts.push(req.body)
+exports.addPosts = (req, res) => {
+    posts.push(req.body);
     console.log(req.body);
     res.status(201).json("Post creado")
-})
-
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
-})  
+}
