@@ -1,0 +1,10 @@
+Chicos a continuación les comparto algunos comentarios con respecto al sprint 2:
+
+1. Con respecto al diagrama de clases hay algunas cosas que no están muy claras:
+    a. Entiendo que hay un usuario y este usuario puede ser cliente o admin, en caso tal creo que lo ideal sería tener una entidad Usuario y una entidad Rol, dado que ambos usuarios comparten propiedades como Username y Contraseña.
+    b. No es muy clara la necesidad de la propiedad Productos en la clase Usuario, esto haría que cada persona solo tuviese un producto al mismo tiempo y entiendo que se podrían comprar varios productos.
+    c. Revisar el video que se compartió por WhatsApp donde se explica la forma de hacer la relación en los casos de venta o compra.
+
+    Chicos por favor sigamos trabajando en el diagrama, aún falta refinarlo y ajustar varias cosas. No lo dejemos de lado.
+
+2. Se evidencian las instalaciones en los distintos equipos. Muy buen trabajo chicos. Felicitaciones 👏
