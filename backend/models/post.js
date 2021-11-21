@@ -10,7 +10,8 @@ const postSchema = mongoose.Schema({
     images: { type: String, required: true},
     price: { type: Number, required: true},
     quantity: { type: Number, required: true},
-    
+    // rol
+
 });
 
 module.exports = mongoose.model("Post", postSchema);
