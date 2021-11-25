@@ -1,3 +1,6 @@
+const { post } = require("../app");
+const Post = require("../models/post");
+
 const posts = [
     {
         id: 1,
@@ -26,7 +29,23 @@ exports.getPosts = (req, res) => {
 }
 
 exports.addPosts = (req, res) => {
-    posts.push(req.body);
     console.log(req.body);
-    res.status(201).json("Post creado")
-}
+    // in mememory
+    //posts.push(req.body);
+    const postAdd = new Post({
+        id: req.body.id,
+        user: req.body.user,
+        name: req.body.name,
+        category: req.body.category,
+        summary: req.body.summary,
+        images: req.body.images,
+        price: req.body.price, 
+        quantity: req.body.quantity,
+        admin: req.body.admin, 
+    });
+
+    postAdd.save().then((createdPost) => {
+        console.log(createdPost);
+        res.status(201).json({ message: "Post creado" });
+    });
+};
