@@ -17,10 +17,10 @@ mongoose
         "mongodb+srv://cattleyaDBuser:0rZqpzM0CVzO9UST@cluster0.ug0uv.mongodb.net/cattleyaDB?retryWrites=true&w=majority"
     )
     .then(() => {
-        console.log("We are connected to CatleyaDB");
+        console.log("¡We are connected to CattleyaDB!");
     })
     .catch(() => {
-        console.log("Houston, we have problems");
+        console.log("¡Houston, we have problems!");
     }); 
 
 app.use("/post",postRoutes)
