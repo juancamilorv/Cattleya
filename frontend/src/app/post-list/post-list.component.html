@@ -1,0 +1,28 @@
+<p class="p-m-t" *ngIf="posts.length === 0">No se han agregado posts</p>
+
+
+
+<mat-card   class="example-card" *ngFor="let item of posts">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{ item.title }}</mat-card-title>
+    <mat-card-subtitle>{{ item.usuario }}</mat-card-subtitle>
+     <mat-card-subtitle> </mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+  <mat-card-subtitle>
+    <p>
+Precio: {{ item.summary }}
+    </p>
+  </mat-card-subtitle>
+  <mat-card-actions #firstDialog >
+    <button  mat-raised-button class="button" click="openDialogWithRef(firstDialog)" > Info </button>
+    <button  mat-raised-button class="button"> Comprar</button>
+
+
+  </mat-card-actions>
+
+
+
+</mat-card>
+

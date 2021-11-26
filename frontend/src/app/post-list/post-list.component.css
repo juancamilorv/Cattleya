@@ -1,0 +1,28 @@
+mat-card {
+  margin-top: 4rem;
+}
+
+.p-m-t {
+  margin-top: 4rem;
+}
+.example-card {
+  margin-top: 6 rem;
+  max-width: 200px;
+  display:block;
+
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+.button {
+  background-color: rgb(12, 131, 12); /* Green */
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
