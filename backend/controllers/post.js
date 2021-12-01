@@ -25,8 +25,10 @@ const posts = [
 ]
 
 exports.getPosts = (req, res) => {
-    res.status(200).json(posts)
-}
+    Post.find().then((postResult) => { 
+      res.status(200).json(postResult);
+    });
+};
 
 exports.addPosts = (req, res) => {
     console.log(req.body);
