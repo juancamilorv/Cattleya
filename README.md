@@ -96,4 +96,4 @@ El proyecto se realiza bajo la metodología ágil SCRUM, para permitir un flujo 
 ## Evidencia de instalacion de los ambientes de trabajo https://docs.google.com/document/d/1r1uuMFRs61ZLvmW-2KiZMp__opmYrGtQKPygAquT_XY/edit
 
 # Diagrama de Clases y objetos
-![Diagrama de Clases](https://github.com/juancamilorv/Cattleya/blob/main/DiagramaDeClases.png)
+![Diagrama de Clases](https://github.com/juancamilorv/Cattleya/blob/main/DiagramaDeClases_Version2.jpeg)
