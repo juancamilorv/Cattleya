@@ -1,4 +1,4 @@
-// const { post } = require("../app");
+const { post } = require("../app");
 const Post = require("../models/post");
 
 const posts = [
