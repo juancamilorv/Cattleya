@@ -3,7 +3,6 @@ const Post = require("../models/post");
 
 const posts = [
     {
-        id: 1,
         user: "Juana Materas",
         name: "Abono orgánico",
         category: "Fertilizantes",
@@ -13,7 +12,6 @@ const posts = [
         quantity: 10,
     },
     {
-        id: 2,
         user: "Juana Materas",
         name: "Orquídea rosada",
         category: "Plantas ornamentales",
@@ -35,7 +33,6 @@ exports.addPosts = (req, res) => {
     // in mememory
     //posts.push(req.body);
     const postAdd = new Post({
-        id: req.body.id,
         user: req.body.user,
         name: req.body.name,
         category: req.body.category,
@@ -51,3 +48,13 @@ exports.addPosts = (req, res) => {
         res.status(201).json({ message: "Post creado" });
     });
 };
+
+exports.deletePost = (req, res) => {
+    Post.deleteOne({ name: req.params.name }) .then((result) => {
+      if (result.deletedCount > 0) {
+        res.status(200).json({ message: "Post eliminado" });
+      } else {
+        res.status(200).json({ message: "Post no encontrado" });
+      }  
+    });
+  };
