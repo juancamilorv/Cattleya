@@ -1,7 +1,26 @@
-// const { post } = require("../app");
+const { post } = require("../app");
 const Post = require("../models/post");
 
-const posts = []
+const posts = [
+    {
+        user: "Juana Materas",
+        name: "Abono orgánico",
+        category: "Fertilizantes",
+        summary: "Abono orgánico a base de estiércol y forraje.",
+        images: "",
+        price: 50000,
+        quantity: 10,
+    },
+    {
+        user: "Juana Materas",
+        name: "Orquídea rosada",
+        category: "Plantas ornamentales",
+        summary: "Flores de Phalaenopsis, las orquídeas más populares del mundo por su larga y frecuente capacidad de florescencia.",
+        images: "",
+        price: 30000,
+        quantity: 3,
+    }
+]
 
 exports.getPosts = (req, res) => {
     Post.find().then((postResult) => { 
@@ -14,7 +33,6 @@ exports.addPosts = (req, res) => {
     // in mememory
     //posts.push(req.body);
     const postAdd = new Post({
-
         user: req.body.user,
         name: req.body.name,
         category: req.body.category,
@@ -31,3 +49,13 @@ exports.addPosts = (req, res) => {
         res.status(201).json({ message: "Post creado" });
     });
 };
+
+exports.deletePost = (req, res) => {
+    Post.deleteOne({ name: req.params.name }) .then((result) => {
+      if (result.deletedCount > 0) {
+        res.status(200).json({ message: "Post eliminado" });
+      } else {
+        res.status(200).json({ message: "Post no encontrado" });
+      }  
+    });
+  };
