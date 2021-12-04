@@ -14,8 +14,7 @@ app.use(express.urlencoded({extended: false}));
 // database connection
 mongoose
     .connect(
-        // paste here the database connection string
-
+    // paste here the database connection string
     )
     .then(() => {
         console.log("¡We are connected to CattleyaDB!");
