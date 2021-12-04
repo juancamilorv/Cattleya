@@ -1,4 +1,4 @@
-const { post } = require("../app");
+// const { post } = require("../app");
 const Post = require("../models/post");
 
 const posts = [
@@ -41,6 +41,7 @@ exports.addPosts = (req, res) => {
         price: req.body.price, 
         quantity: req.body.quantity,
         admin: req.body.admin, 
+
     });
 
     postAdd.save().then((createdPost) => {
