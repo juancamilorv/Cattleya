@@ -99,6 +99,10 @@ El proyecto se realiza bajo la metodología ágil SCRUM, para permitir un flujo 
 
 ![Diagrama de Clases](https://github.com/juancamilorv/Cattleya/blob/main/DiagramaDeClases.png)
 
+# SPRINT 3
+
 # Diagrama de Clases y objetos (Versión Actualizada)
 
 ![Diagrama de Clases](https://github.com/juancamilorv/Cattleya/blob/main/DiagramaDeClases_Version2.jpeg)
+
+La instalación de las dependencias Express 4.17.1 y Mongoose 6.0.13, necesarias para trabajar en el backend, se evidencia en el archivo package.json
