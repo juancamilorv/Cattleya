@@ -1,4 +1,4 @@
-const { post } = require("../app");
+//const { post } = require("../app");
 const Post = require("../models/post");
 
 const posts = [
@@ -58,4 +58,28 @@ exports.deletePost = (req, res) => {
         res.status(200).json({ message: "Post no encontrado" });
       }  
     });
-  };
+};
+
+exports.updatePost = (req, res) => {
+    const id = req.params.id;
+    const post = new Post({
+        _id: id,
+        user: req.body.user,
+        name: req.body.name,
+        category: req.body.category,
+        summary: req.body.summary,
+        images: req.body.images,
+        price: req.body.price, 
+        quantity: req.body.quantity,
+        admin: req.body.admin,
+    });
+
+    Post.updateOne({ _id: id }, post).then((result) => {
+        if (result.modifiedCount > 0) {
+            res.status(200).json({ message: "Actualización exitosa" });
+          } else {
+            res.status(200).json({ message: "Post no encontrado" });
+          }
+    });
+};
+
