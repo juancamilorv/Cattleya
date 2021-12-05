@@ -107,4 +107,4 @@ El proyecto se realiza bajo la metodología ágil SCRUM, para permitir un flujo 
 
 La instalación de las dependencias Express 4.17.1 y Mongoose 6.0.13, necesarias para trabajar en el backend, se evidencia en el archivo package.json
 
-## Evidencia de pruebas en Insomnia https://docs.google.com/document/d/1TusIfV5lEYBu7FlfdD-AhacIiT3GdggZtQ3e8QEDaTw/edit
+## Test protocolos HTTP en Insomnia https://docs.google.com/document/d/1TusIfV5lEYBu7FlfdD-AhacIiT3GdggZtQ3e8QEDaTw/edit
